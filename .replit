@@ -1,7 +1,7 @@
-entrypoint = "5_DFSandBFS/dfs.py"
-hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
-run = "python3 5_DFSandBFS/dfs.py"
+entrypoint = "5_DFSandBFS/미로_탈출.py"
+run = "python3 5_DFSandBFS/미로_탈출.py"
 language = "python3"
+hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
 [languages]
 
