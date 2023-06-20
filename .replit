@@ -1,6 +1,6 @@
-entrypoint = "python/first_test.py"
+entrypoint = "5_DFSandBFS/dfs.py"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
-run = "python3 python/first_test.py"
+run = "python3 5_DFSandBFS/dfs.py"
 language = "python3"
 
 [languages]
