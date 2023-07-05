@@ -1,5 +1,5 @@
-entrypoint = "8_dp/바닥공사.py"
-run = "python3 8_dp/바닥공사.py"
+entrypoint = "8_dp/효율적인화폐구성.py"
+run = "python3 8_dp/효율적인화폐구성.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
