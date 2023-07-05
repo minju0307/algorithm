@@ -1,5 +1,5 @@
-entrypoint = "7_binary_search/떡볶이떡.py"
-run = "python3 7_binary_search/떡볶이떡.py"
+entrypoint = "8_dp/1로만들기.py"
+run = "python3 8_dp/1로만들기.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
