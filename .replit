@@ -1,5 +1,5 @@
-entrypoint = "9_min_distance/dijkstra.py"
-run = "python3 9_min_distance/dijkstra.py"
+entrypoint = "9_min_distance/floyd.py"
+run = "python3 9_min_distance/floyd.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
