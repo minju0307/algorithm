@@ -2,7 +2,7 @@
 def find_parent(parent, x):
   # 루트 노드가 아니라면, 루트 노드를 찾을 때까지 재귀적으로 호출
   if parent[x] != x:
-    return find_parent(parent, parent[x])
+    parent[x] = find_parent(parent, parent[x])
   return parent[x]
 
 
@@ -16,6 +16,7 @@ def union_parent(parent, a, b):
   else:
     parent[a] = b
 
+
 # 노드의 개수와 간선(union 연산)의 개수 입력받기
 v, e = map(int, input().split())
 parent = [0] * (v + 1)  # 부모 테이블 초기화
@@ -24,9 +25,9 @@ parent = [0] * (v + 1)  # 부모 테이블 초기화
 for i in range(1, v + 1):
   parent[i] = i
 
-cycle = False # 사이클 발생 여부
+cycle = False  # 사이클 발생 여부
 
-for i in range(e): # 모든 간선을 하나씩 확인하며, 매 간선에 대하여 union 및 find 함수를 호출
+for i in range(e):  # 모든 간선을 하나씩 확인하며, 매 간선에 대하여 union 및 find 함수를 호출
   a, b = map(int, input().split())
   # 사이클이 발생한 경우 종료
   if find_parent(parent, a) == find_parent(parent, b):
@@ -40,4 +41,3 @@ if cycle:
   print("사이클이 발생했습니다.")
 else:
   print("사이클이 발생하지 않았습니다.")
-  
