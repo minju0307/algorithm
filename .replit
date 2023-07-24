@@ -1,5 +1,5 @@
-entrypoint = "11_greedy_execercise/01_모험가길드.py"
-run = "python3 11_greedy_execercise/01_모험가길드.py"
+entrypoint = "11_greedy_execercise/02_곱하기혹은더하기.py"
+run = "python3 11_greedy_execercise/02_곱하기혹은더하기.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
