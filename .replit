@@ -1,5 +1,5 @@
-entrypoint = "11_greedy_execercise/04_만들수없는금액_optimal.py"
-run = "python3 11_greedy_execercise/04_만들수없는금액_optimal.py"
+entrypoint = "11_greedy_execercise/05_볼링공고르기_optimal.py"
+run = "python3 11_greedy_execercise/05_볼링공고르기_optimal.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
