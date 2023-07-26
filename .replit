@@ -1,5 +1,5 @@
-entrypoint = "11_greedy_execercise/06_무지의먹방라이브.py"
-run = "python3 11_greedy_execercise/06_무지의먹방라이브.py"
+entrypoint = "12_implementation/07_럭키스트레이트.py"
+run = "python3 12_implementation/07_럭키스트레이트.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
