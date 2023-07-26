@@ -1,5 +1,5 @@
-entrypoint = "12_implementation/07_럭키스트레이트.py"
-run = "python3 12_implementation/07_럭키스트레이트.py"
+entrypoint = "12_implementation/08_문자열재정렬.py"
+run = "python3 12_implementation/08_문자열재정렬.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
