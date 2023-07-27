@@ -1,5 +1,5 @@
-entrypoint = "14_sorting_execercise/23_국영수.py"
-run = "python3 14_sorting_execercise/23_국영수.py"
+entrypoint = "14_sorting_execercise/24_안테나.py"
+run = "python3 14_sorting_execercise/24_안테나.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
