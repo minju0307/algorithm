@@ -1,5 +1,5 @@
-entrypoint = "12_implementation/10_자물쇠와열쇠.py"
-run = "python3 12_implementation/10_자물쇠와열쇠.py"
+entrypoint = "12_implementation/11_뱀.py"
+run = "python3 12_implementation/11_뱀.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
