@@ -1,5 +1,5 @@
-entrypoint = "14_sorting_execercise/26_카드정렬하기_optimal.py"
-run = "python3 14_sorting_execercise/26_카드정렬하기_optimal.py"
+entrypoint = "15_dfs_bfs_execercise/15_특정거리의도시찾기_optimal.py"
+run = "python3 15_dfs_bfs_execercise/15_특정거리의도시찾기_optimal.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
