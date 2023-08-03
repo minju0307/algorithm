@@ -1,5 +1,5 @@
-entrypoint = "15_dfs_bfs_execercise/15_특정거리의도시찾기_optimal.py"
-run = "python3 15_dfs_bfs_execercise/15_특정거리의도시찾기_optimal.py"
+entrypoint = "16_dp_execercise/36_편집거리.py"
+run = "python3 16_dp_execercise/36_편집거리.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
