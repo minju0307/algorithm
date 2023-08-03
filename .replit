@@ -1,5 +1,5 @@
-entrypoint = "16_dp_execercise/36_편집거리.py"
-run = "python3 16_dp_execercise/36_편집거리.py"
+entrypoint = "15_binary_search_execercise/36_편집거리.py"
+run = "python3 15_binary_search_execercise/36_편집거리.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
