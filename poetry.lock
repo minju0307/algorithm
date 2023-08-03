@@ -1,0 +1,15 @@
+[[package]]
+name = "more-itertools"
+version = "10.0.0"
+description = "More routines for operating on iterables, beyond itertools"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "f1c3d6cb45fc573e90638e011eda349a83b77ab6a9b86f46dd4e9cef81f47f93"
+
+[metadata.files]
+more-itertools = []

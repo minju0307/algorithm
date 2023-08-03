@@ -1,5 +1,5 @@
-entrypoint = "17_min_distance_execercise/37_플로이드.py"
-run = "python3 17_min_distance_execercise/37_플로이드.py"
+entrypoint = "18_graph_execercise/42_탑승구_optimal.py"
+run = "python3 18_graph_execercise/42_탑승구_optimal.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 

@@ -40,8 +40,8 @@ edges.sort()
 for edge in edges:
   cost, a, b = edge
   # 사이클이 발생하지 않는 경우에만 집합에 포함
-  if find_parent(parent, a) != find_parent(parent, b):
-    union_parent(parent, a, b)
+  if find_parent(parent, a) != find_parent(parent, b): # 서로 사이클이 발생하지 않을 때 
+    union_parent(parent, a, b) # 간선이 이어지는 것 
     result += cost
     print(edge)
 
