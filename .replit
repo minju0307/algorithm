@@ -1,5 +1,5 @@
-entrypoint = "15_binary_search_execercise/27_정렬된배열에서특정수의개수구하기.py"
-run = "python3 15_binary_search_execercise/27_정렬된배열에서특정수의개수구하기.py"
+entrypoint = "17_min_distance_execercise/37_플로이드.py"
+run = "python3 17_min_distance_execercise/37_플로이드.py"
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 
